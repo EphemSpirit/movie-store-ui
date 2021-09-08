@@ -1,21 +1,19 @@
 .navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: grey;
     height: 50px;
     width: 100%;
 }
 
+.title {
+    color: white;
+    font-weight: bold;
+}
+
 .control {
     display: flex;
     justify-content: flex-end;
     width: 25%;
-}
-
-.control button {
-    color: green;
-    border-radius: 10px;
-    height: 25px;
-    width: 100px;
 }
