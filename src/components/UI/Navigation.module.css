@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(63, 17, 136);
     height: 50px;
     width: 100%;
 }
@@ -10,6 +10,8 @@
 .title {
     color: white;
     font-weight: bold;
+    filter: drop-shadow(10px 10px 10px black);
+    text-transform: uppercase;
 }
 
 .control {

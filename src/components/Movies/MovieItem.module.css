@@ -1,6 +1,6 @@
 .item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 150px;
@@ -10,3 +10,15 @@
     margin: 10px 0;
     list-style: none;
 }
+
+.movie-title {
+    text-decoration: underline;
+}
+
+.director,
+.rating { 
+    font-style: italic; 
+    font-weight: 300;
+}
+
+.rating { margin-bottom: 10px;}
