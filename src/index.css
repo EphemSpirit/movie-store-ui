@@ -12,3 +12,8 @@ code {
     monospace;
 }
 
+#root { 
+  background-image: url('./assets/movie-bg.jpg');
+  height: 100vh;
+  width: 100vw;
+}

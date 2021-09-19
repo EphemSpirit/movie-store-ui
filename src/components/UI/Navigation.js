@@ -26,7 +26,8 @@ const Navigation = (props) => {
             <nav className={styles.navigation}>
                 <div className={styles.title}>Welcome to the Movie Store!</div>
                 <section className={styles.control}>
-                    <Button>View Watchlist</Button>
+                    {loggedIn && <Button>My Account</Button>}
+                    {loggedIn && <Button>View Watchlist</Button>}
                     <Button onClick={loginHandler}>{content}</Button>
                     <span></span>
                 </section>
